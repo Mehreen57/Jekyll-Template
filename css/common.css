@@ -1,0 +1,19 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Georgia,serif;
+	line-height: 1.4;
+	font-weight: 100;
+}
+
+.current {
+	background-color: #000531;
+	color: #fff;
+}
+
+.top-nav {
+	font-size: 4.2rem;
+}
