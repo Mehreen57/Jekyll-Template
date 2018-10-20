@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	font-family: Georgia,serif;
+	font-family: monospace;
 	line-height: 1.4;
 	font-weight: 100;
 }
@@ -14,6 +14,15 @@ body {
 	color: #fff;
 }
 
-.top-nav {
-	font-size: 4.2rem;
+.nav-top{
+	font-size: 1.2rem;
+	background-color: #ccc;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
 }
