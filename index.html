@@ -1,5 +1,17 @@
 ---
-layout: defualt
+layout: default
 ---
+HOME PAGE
 <h1>This is Heading planets of the universe</h1>
 <p>i am learning</p>
+
+<h2>Recently discovered planets</h2>
+
+<ul>
+	{% for news in site.categories.recently-discovered %}
+	<li>
+		<a href="">{{news.title}}</a>
+		<p>{{news.meta}}</p>
+	</li>
+	{% endfor %}
+ </ul>
