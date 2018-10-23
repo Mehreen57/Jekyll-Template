@@ -14,15 +14,15 @@ body {
 	color: #fff;
 }
 
-.nav-top{
+.nav-top , .nav-bottom{
 	font-size: 1.2rem;
 	background-color: #ccc;
 }
 
-ul li {
+.nav-top li , .nav-bottom li{
 	display: inline-block;
 }
 
-ul li a {
+.nav-top li a , .nav-bottom li a {
 	text-decoration: none;
 }
