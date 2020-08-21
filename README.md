@@ -1,2 +1,2 @@
-# planets-of-the-universe
-A small website with details on many planets and up-to-date news
+# Jekyll Template
+A small website with details on how to set up the jekyll website which includes folder structure,syntax etc.
